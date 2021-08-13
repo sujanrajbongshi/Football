@@ -22,19 +22,25 @@ h1{
     padding-left: 20px;
 }
 .copa{
-    margin-left: 156px;
+    margin-left: 100px;
     margin-top: 207px;
     color: white;
 }
 .button{
     color: white;
     text-decoration: none;
-    border: 1px solid red;
     padding: 15px 40px;
     margin-top: 50px;
     background-color:rgb(224, 44, 109);
     font-family: 'Roboto', sans-serif;
 }
+.copa:hover{
+        margin-left: 156px;
+        margin-top: 207px;
+        color:white;
+        transition: margin-left 2s;
+}
+
 .right_arrow{
     padding-left: 10px;
 }
@@ -64,11 +70,9 @@ p{
 }
 .lastpera{
     font-family: 'Poppins', sans-serif;
-    /* margin: 200px 300px; */
     margin-top: 200px;
     margin-bottom: 200px;
     margin-left: 200px;
-    /* padding: 100px; */
     height: 700px;
     margin-left: 200px;
 }
@@ -81,13 +85,7 @@ p{
     width: 100%;
     margin-left: 50px;
 }
-/* .footer img{
-    text-align: center;
-    align-items: center;
-} */
 .footer{
-    /* margin: 400px; */
-    /* padding: 300px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,9 +94,6 @@ p{
 .footer img{
     width: 483.87px;
     height: 150px;
-    /* align-items: center;
-    display: flex;
-    align-items: center; */
 }
 .icon{
     margin-left: 10px;
@@ -110,10 +105,6 @@ p{
 
 @media only screen and (max-width: 600px) {
     .banner{
-        /* grid-template-columns: repeat(1, 1fr)           ;
-        display: flex;
-        height: 700px;
-        background-color: rgb(45, 37,160); */
         grid-template-columns: repeat(1, 1fr);
         display: flex;
         height: auto;
